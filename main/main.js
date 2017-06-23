@@ -8,7 +8,6 @@ o) 平均值 = ${sequence.ver()}
 };
 
 class Sequence {
-	var sequence
   constructor(input) {
     // Write your code here
     this.sequence = input 
