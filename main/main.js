@@ -46,7 +46,7 @@ class Sequence {
   	{
   		a+=this.input[i]
   	}
-	return a/this.input.length  	
+	return (a/this.input.length).toFixed(2)  	
   }
   // Write your code here
 }
