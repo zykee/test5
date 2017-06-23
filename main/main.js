@@ -10,43 +10,43 @@ o) 平均值 = ${sequence.ver()}
 class Sequence {
   constructor(input) {
     // Write your code here
-    this.sequence = input 
+    this.input = input 
   }
 
   minimum() {
     // Write your code here
     var a
     //var b
-    for(var i=1,a=sequence[0];i<sequence.length;i++)
+    for(var i=1,a=input[0];i<input.length;i++)
     {
-    	if(a>sequence[i])
+    	if(a>input[i])
     	{
-    		a=sequence[i]
+    		a=input[i]
     	}
     }
     return a
   }
   maximum(){
   	var a
-    for(var i=1,a=sequence[0];i<sequence.length;i++)
+    for(var i=1,a=input[0];i<input.length;i++)
     {
-    	if(a<sequence[i])
+    	if(a<input[i])
     	{
-    		a=sequence[i]
+    		a=input[i]
     	}
     }
     return a
   }
   sum(){
-  	return sequence.length
+  	return input.length
   }
   ver(){
   	var a=0
-  	for(var i = 0 ;i<sequence.length;i++)
+  	for(var i = 0 ;i<input.length;i++)
   	{
-  		a+=sequence[i]
+  		a+=input[i]
   	}
-	return a/sequence.length  	
+	return a/input.length  	
   }
   // Write your code here
 }
