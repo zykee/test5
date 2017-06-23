@@ -17,7 +17,7 @@ class Sequence {
     // Write your code here
     var a
     //var b
-    for(int i=1,a=sequence[0];i<sequence.length;i++)
+    for(var i=1,a=sequence[0];i<sequence.length;i++)
     {
     	if(a>sequence[i])
     	{
@@ -28,7 +28,7 @@ class Sequence {
   }
   maximum(){
   	var a
-    for(int i=1,a=sequence[0];i<sequence.length;i++)
+    for(var i=1,a=sequence[0];i<sequence.length;i++)
     {
     	if(a<sequence[i])
     	{
