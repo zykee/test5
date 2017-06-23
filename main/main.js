@@ -3,8 +3,7 @@ module.exports = function main() {
     console.log(`o) 最小值 = ${sequence.minimum()}
 o) 最大值 = ${sequence.maximum()}
 o) 元素数量 = ${sequence.sum()}
-o) 平均值 = ${sequence.ver()}
-`);
+o) 平均值 = ${sequence.ver()}`);
 };
 
 class Sequence {
